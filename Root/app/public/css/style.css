@@ -5,6 +5,13 @@
     padding-bottom: 10px;
 }
 
+.questionBox{
+  border-bottom: 4px solid lightgreen;
+  font-size: 15pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .questionContent {
     font-size: 24pt;
 

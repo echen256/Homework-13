@@ -1,5 +1,7 @@
 var express = require("express");
-var path = require("path");
+
+
+
 
 // Sets up the Express App
 // =============================================================
@@ -13,3 +15,7 @@ app.use(express.json());
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
 });
+
+require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/htmlRoutes.js")(app);
+
