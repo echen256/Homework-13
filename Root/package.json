@@ -1,0 +1,26 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },"engines": {
+    "node": "10.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echen256/Homework-13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echen256/Homework-13/issues"
+  },
+  "homepage": "https://github.com/echen256/Homework-13#readme"
+}
